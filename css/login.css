@@ -1,0 +1,50 @@
+.form{
+background: #747272;
+width: 600px;
+height: 600px;
+margin: 0 auto;
+display: flex;
+
+}
+
+.input{
+    background: transparent;
+  
+    color: azure;
+    border: none; 
+    outline: none; 
+    
+}
+
+.input_img{
+    background: #686666;
+    padding: 5px 20px;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+
+.input_container{
+   
+
+}
+.input_submit{
+    border-radius: 20px;
+    padding: 10px 100px;
+    border: none; 
+    outline: none; 
+    background: #a3a1a1;
+}
+
+form{
+    align-items: center;
+    justify-content: center; 
+}
+
+.input_container > div {
+    display: flex;
+    align-items: center;
+    background: #313131;
+    border-radius: 20px;
+    padding: 5px 10px;
+ margin-bottom: 10px;
+}

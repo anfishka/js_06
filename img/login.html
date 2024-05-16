@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/login.css" />
+  </head>
+  <body>
+    <form class="form" action="/action_page.php">
+      <div class="input_container">
+        <div>
+          <img class="input_img" src="./envelope.png" alt="envelope" />
+          <input
+            class="input login"
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Email ID"
+            pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"
+          /><br /><br />
+        </div>
+
+        <div>
+          <img class="input_img" src="./lock.png" alt="password" />
+
+          <input
+            class="input pass"
+            type="tel"
+            id="phone"
+            name="phone"
+            placeholder="Password"
+            pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"
+          /><br /><br />
+        </div>
+
+        <input class="input_submit" type="submit" value="SIGN IN" />
+      </div>
+    </form>
+  </body>
+  <script src="./js/script.js"></script>
+</html>
